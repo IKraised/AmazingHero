@@ -1,0 +1,401 @@
+*,
+*:after,
+*:before{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+
+
+	font-family: 'Fira Sans', sans-serif;
+/*	font-family: 'Lato', sans-serif;*/
+}
+a{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	max-width: 1180px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+/* Header =========================*/
+
+.wrapper{
+	background-image: url(../img/hero__bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 900px;
+	height: 100vh;
+
+}
+.header__top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 90px;
+}
+.header__menu{
+	padding-right: 25px;
+}
+.header__box{
+	padding-top: 150px;
+	max-width: 535px;
+}
+.header__title{
+	color: #000000;
+	font-family: "Fira Sans";
+	font-size: 72px;
+	font-weight: 300;
+	letter-spacing: -1.8px;
+}
+.header__text{
+	color: #000000;
+	font-family: "Fira Sans";
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 45px;
+	letter-spacing: -0.75px;
+}
+.header__text span{
+	font-family: "Fira Sans";
+	font-weight: 700;
+	letter-spacing: -0.75px;
+}
+
+/* About ===========================*/
+.about{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.about img{
+	width: 50%;
+	max-width: 800px;
+}
+.about__box{
+	width: 50%;
+	max-width: 800px;
+}
+.about__box-inner{
+	max-width: 500px;
+	padding-left: 50px;
+}
+.about__title{
+	color: #666666;
+	font-family: "Fira Sans";
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+.about__text{
+	color: #666666;
+	font-family: "Fira Sans";
+	font-size: 36px;
+	font-weight: 300;
+	letter-spacing: -0.9px;
+}
+/* Gallery ===========================*/
+.gallery{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.gallery img{
+	max-width: 25%;
+}
+/* Gallery__search ====================*/
+.gallery__search{
+	display: flex;
+	justify-content: center;
+}
+.gallery__search-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	max-width: 800px;
+	max-height: 515px;
+	background-color: #3f729b;
+}
+.gallery__search-inner{
+	max-width: 500px;
+}
+.gallery__search-img{
+	display: flex;
+	width: 50%;
+	max-width: 800px;
+	background-color: #3f729b;
+}
+.gallery__search-img img{
+	max-width: 50%;
+}
+.gallery__right{
+	width: 50%;
+	max-width: 800px;
+}
+.gallery__search-title{
+	color: #f9f9f9;
+	font-family: "Fira Sans";
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+
+	margin-bottom: 40px;
+}
+.gallery__search-text{
+	color: #f9f9f9;
+	font-family: "Fira Sans";
+	font-size: 36px;
+	font-weight: 300;
+	letter-spacing: -0.9px;
+
+	margin-bottom: 40px;
+}
+.gallery__search-btn{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #f9f9f9;
+	font-family: "Fira Sans";
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3.6px;
+
+	width: 280px;
+	height: 56px;
+	border: 2px solid #ffffff;
+	border-radius: 25px;
+}
+.gallery__search-btn:hover{
+	background-color: #fff;
+	color: #3f729b;
+}
+.default-btn{
+	text-decoration: none;
+}
+/* link ===============*/
+.link{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.link__spotify{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	max-width: 800px;
+	max-height: 515px;
+	background-color: #2ebd59;
+}
+.link__itunes{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	max-width: 800px;
+	max-height: 515px;
+	background-color: #282b2f;
+}
+.link__box{
+	max-width: 500px;
+	margin-top: 140px;
+	margin-bottom: 150px;
+}
+.link__itunes-title,
+.link__spotify-title{
+	color: #f9f9f9;
+	font-family: "Fira Sans";
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+.link__itunes-text,
+.link__spotify-text{
+	color: #f9f9f9;
+	font-family: "Fira Sans";
+	font-size: 36px;
+	font-weight: 300;
+	letter-spacing: -0.9px;
+	margin-bottom: 50px;
+}
+.link__itunes-btn,
+.link__spotify-btn{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #f9f9f9;
+	font-family: "Fira Sans";
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3.6px;
+
+	width: 280px;
+	height: 56px;
+	border: 2px solid #ffffff;
+	border-radius: 25px;
+}
+.link__itunes-btn:hover{
+	background-color: #fff;
+	color:  #282b2f;
+}
+.link__spotify-btn:hover{
+	background-color: #fff;
+	color: #2ebd59;
+
+}
+/* Footer ================*/
+.footer{
+	background-color: #212227;
+}
+.footer__inner{
+	display: flex;
+	justify-content: center;
+}
+.rights{
+	max-width: 300px;
+	margin-top: 50px;
+	margin-right: 120px;
+}
+.rights__title{
+	color: #f9f9f9;
+	font-family: "Fira Sans";
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+.rights__text{
+	color: #919191;
+	font-family: "Fira Sans";
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 21px;
+	margin-bottom: 25px;
+}
+.rights__reserv{
+	color: #919191;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 21px;
+	font-family: "Fira Sans";
+	font-weight: 300;
+	text-transform: uppercase;
+	padding-bottom: 50px;
+}
+.follow{
+	max-width: 170px;
+	margin-top: 50px;
+	margin-right: 130px;
+}
+.follow__title,
+.follow__link-title{
+	color: #f9f9f9;
+	font-family: "Fira Sans";
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.follow__adress{
+	color: #919191;
+	font-family: "Fira Sans";
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 21px;
+}
+.contact{
+	max-width: 500px;
+	margin-top: 50px;
+}
+.contact__title{
+	color: #f9f9f9;
+	font-family: "Fira Sans";
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.contact__text{
+	color: #919191;
+	font-family: "Fira Sans";
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 21px;
+}
+.follow__link{
+	margin-top: 70px;
+}
+.follow__link ul{
+	list-style: none;
+	text-align: left;
+
+}
+.follow__link li{
+	position: relative;
+}
+.social{
+	text-decoration: none;
+	color: #919191;
+	font-family: "Fira Sans";
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.facebook:before{
+	content: "\f09a";
+	font-family: 'icomoon';
+	left: -20px;
+	position: absolute;
+}
+.twitter:before{
+	content: "\f099";
+	font-family: 'icomoon';
+	left: -22px;
+	position: absolute;
+}
+.instagram:before{
+	content: "\f16d";
+	font-family: 'icomoon';
+	left: -22px;
+	position: absolute;
+
+}
+.spotify:before{
+	content: "\f1bc";
+	font-family: 'icomoon';
+	left: -22px;
+	position: absolute;
+}
+.follow__link a:hover{
+	color: #fff;
+}
+.sponsor{
+	margin-top: 80px;
+}
+.sponsor__title{
+	color: #f9f9f9;
+	font-family: "Fira Sans";
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.sponsor__logo{
+	margin-top: 20px;
+}
+.sponsor__logo img{
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
